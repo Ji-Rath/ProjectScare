@@ -30,6 +30,31 @@ the air. This can be mitigated by disabling CanCharacterStepUpOn and adjusting '
 - Disabling pawn collision while the player is grabbing an object is the only solution I found to prevent
 flying while grabbing a physics object under you. A better solution may be possible.
 
+# Story
+## Premise:
+After a long day at work, **Player** returns to his modest suburban home. It's the middle of winter, and darkness falls early. A biting chill lingers in the air. The only source of warmth is his cozy living room, bathed in a soft amber glow from the floor lamp by the couch. He moves around his familiar space, performing his nightly routine—but tonight, something feels... off.
+## Gameplay:
+- After watching TV or eating dinner, it was time to go to bed.
+- Before going to bed, the player must turn off all lights/electronics
+- Lights cannot be turned back on by the player
+- Similar to slender man, a strange creature will start appearing more frequently as more lights go off
+- once all lights are turned off, the player must then finally make it to their bed in darkness
+- as a bonus, the player forgot their favorite toy at the other side of the house and must retrieve it
+- bad ending - player dies rip
+- good ending - all lights are off and stuffed animal is retrieved, player sleeps well
+
+## Random scare events
+- As the player is turning off the lights, a random light may turn back on..maybe red. An object may be in the middle of the room (like a monster?). Shortly after, the light will go back to normal
+- Random footsteps from across the house or outside
+- person staring inside from window
+- person leaning over corner
+- random objects falling over, like a plate, or umbrella
+- faintly hear crying from a distance
+
+## Game over events
+- if the player gets too close to a scare event (maybe like the monster), the monster should disappear. But shortly after (or when the player turns around), the monster should jump scare the player
+- If there is a chase event, the monster should simply jump scare the player when he gets close (idk if i like this idea)
+
 ## External Assets Currently Used
 - https://elbolilloduro.itch.io/paquete-de-modelos-low-poly-estilo-psx-2
 - https://chilly-durango.itch.io/medieval-building-parts
