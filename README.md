@@ -33,6 +33,12 @@ flying while grabbing a physics object under you. A better solution may be possi
 # Story
 ## Premise:
 After a long day at work, **Player** returns to his modest suburban home. It's the middle of winter, and darkness falls early. A biting chill lingers in the air. The only source of warmth is his cozy living room, bathed in a soft amber glow from the floor lamp by the couch. He moves around his familiar space, performing his nightly routine—but tonight, something feels... off.
+- The monster is the player's mother. The twist is the player has murdered her. By progressing through the game and uncovering notes and environmental hints, the player will uncover the truth. 
+- The monster is in the player's house haunting them.
+- We are in the house as we have just finished work and are getting ready to go to bed.
+- The monster is watching us, sort of like a guilt lingering over the player
+- We need to turn off all the lights as its easier to sleep in darkness
+
 ## Gameplay:
 - After watching TV or eating dinner, it was time to go to bed.
 - Before going to bed, the player must turn off all lights/electronics
@@ -42,6 +48,7 @@ After a long day at work, **Player** returns to his modest suburban home. It's t
 - as a bonus, the player forgot their favorite toy at the other side of the house and must retrieve it
 - bad ending - player dies rip
 - good ending - all lights are off and stuffed animal is retrieved, player sleeps well
+- Certain areas will trigger events that will slowly reveal the player's past.
 
 ## Random scare events
 - As the player is turning off the lights, a random light may turn back on..maybe red. An object may be in the middle of the room (like a monster?). Shortly after, the light will go back to normal
