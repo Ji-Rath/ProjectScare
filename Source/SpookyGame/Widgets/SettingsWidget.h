@@ -1,12 +1,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CommonActivatableWidget.h"
 #include "Blueprint/UserWidget.h"
 #include "GenericPlatform/GenericWindow.h"
 #include "SettingsWidget.generated.h"
 
 UCLASS()
-class SPOOKYGAME_API USettingsWidget : public UUserWidget
+class SPOOKYGAME_API USettingsWidget : public UCommonActivatableWidget
 {
 	GENERATED_BODY()
 	
