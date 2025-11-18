@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "CommonActivatableWidget.h"
 #include "Blueprint/UserWidget.h"
 #include "InteractWidget.generated.h"
 
@@ -13,7 +14,7 @@ class UTextBlock;
  * 
  */
 UCLASS()
-class SPOOKYGAME_API UInteractWidget : public UUserWidget
+class SPOOKYGAME_API UInteractWidget : public UCommonActivatableWidget
 {
 	GENERATED_BODY()
 public:
