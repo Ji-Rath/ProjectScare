@@ -9,7 +9,7 @@
 #include "Door.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDoorUnlock);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDoorInteract);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDoorInteract, AActor*, Interactor);
 
 /**
  * Base class for all door related objects
