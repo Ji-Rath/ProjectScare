@@ -90,4 +90,5 @@ LocalDerivedDataCache/*
 /dataSources/
 /dataSources.local.xml
 
-Content/Assets/Licensed/*
+# ignore any licensed assets
+Licensed/
