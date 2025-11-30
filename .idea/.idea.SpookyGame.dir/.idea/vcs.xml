@@ -4,6 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Plugins/DlgSystem" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Plugins/InteractSystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugins/MoreMovement" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Plugins/SPUD" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Plugins/SUQS" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Plugins/UEGitPlugin" vcs="Git" />

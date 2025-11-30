@@ -1,0 +1,165 @@
+[
+	{
+		"Name": "Q_EscapeHouse",
+		"Identifier": "Q_EscapeHouse",
+		"bPlayerVisible": true,
+		"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"44695F324D4BB940EABAA88F673CCF83\", \"Escape the House\")",
+		"DescriptionWhenActive": "",
+		"DescriptionWhenCompleted": "",
+		"AutoAccept": true,
+		"PrerequisiteQuests": [],
+		"PrerequisiteQuestFailures": [],
+		"DefaultActiveBranches": [],
+		"bResolveAutomatically": true,
+		"ResolveDelay": -1,
+		"ResolveGate": "None",
+		"Objectives": [
+			{
+				"Identifier": "O_EscapeRoom",
+				"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"A8B336674F0502CF5E4B4CB5E3AFA4AD\", \"Escape the Room\")",
+				"DescriptionWhenActive": "",
+				"DescriptionWhenCompleted": "",
+				"bSequentialTasks": false,
+				"NumberOfMandatoryTasksRequired": -1,
+				"bContinueOnFail": false,
+				"Branch": "None",
+				"Tasks": [
+					{
+						"Identifier": "T_FindScrap",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"4329AE1E47F53620CDD2A3BF126D2AF7\", \"Find Scrap\")",
+						"bMandatory": true,
+						"TargetNumber": 2,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					},
+					{
+						"Identifier": "T_FindAdhesive",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"42321A3144F207F3EEE108ABA4C791B9\", \"Find Adhesive\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					},
+					{
+						"Identifier": "T_CraftPick",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"CFE931FF457A17E8540F81AD5C9238C4\", \"Craft a Lockpick\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					},
+					{
+						"Identifier": "T_UnlockBedDoor",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"3BADF3674C67E99823798BA0712657E5\", \"Unlock the Bedroom Door\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					}
+				]
+			},
+			{
+				"Identifier": "O_OpenStorage",
+				"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"F675B467424A4F1773FB358236A661EB\", \"Open the Storage Room\")",
+				"DescriptionWhenActive": "",
+				"DescriptionWhenCompleted": "",
+				"bSequentialTasks": false,
+				"NumberOfMandatoryTasksRequired": -1,
+				"bContinueOnFail": false,
+				"Branch": "None",
+				"Tasks": [
+					{
+						"Identifier": "T_DisarmTrap",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"E25034234E00D93E8B1D61AB2AB2005B\", \"Disarm the Trap\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					},
+					{
+						"Identifier": "T_MakeAcid",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"6D152A9B4C5DD6493E8F1F97575CA99C\", \"Craft Acid\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					},
+					{
+						"Identifier": "T_DissolveLock",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"E8D673F04962F3029165C5849A03C186\", \"Dissolve Lock on Door\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					}
+				]
+			},
+			{
+				"Identifier": "O_BreakFrontDoor",
+				"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"B6FB116241E82F927EEF69A5285BB3E6\", \"Open Front Door\")",
+				"DescriptionWhenActive": "",
+				"DescriptionWhenCompleted": "",
+				"bSequentialTasks": false,
+				"NumberOfMandatoryTasksRequired": -1,
+				"bContinueOnFail": false,
+				"Branch": "None",
+				"Tasks": [
+					{
+						"Identifier": "T_FindHammer",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"6B8FB9A64D9A91C7FA4082ADB733B966\", \"Find Hammer\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					},
+					{
+						"Identifier": "T_BreakBlockade",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"A6329FB840A95CF38DA9EA8E079A3AAD\", \"Break Blockade at Front Door\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					},
+					{
+						"Identifier": "T_FindKey",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"DAF4DA534D170BE3559E70906302B57C\", \"Find Front Door Key\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					},
+					{
+						"Identifier": "T_UnlockDoor",
+						"Title": "NSLOCTEXT(\"[EFDA8FEF56E31CD71D17395EB5DBFDDD]\", \"442A7CAA4DB0FB7195A7DBB2F3DC60C3\", \"Unlock the Front Door\")",
+						"bMandatory": true,
+						"TargetNumber": 1,
+						"TimeLimit": 0,
+						"bResolveAutomatically": true,
+						"ResolveDelay": -1,
+						"ResolveGate": "None"
+					}
+				]
+			}
+		]
+	}
+]
